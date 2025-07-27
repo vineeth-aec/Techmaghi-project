@@ -1,0 +1,682 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 32px;
+    height: 32px;
+    border-radius: 0.5rem;
+}
+
+#header {
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px 30px;
+    
+}
+
+/* GENERAL LINK STYLING */
+#header a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 4px 10px;
+    transition: color 0.2s;
+
+
+}
+
+#header :hover {
+    color: #ff6900;
+    /* Xiaomi's orange highlight color */
+}
+
+/* slider img */
+.carousel-item {
+    width: 100%;
+    height: 500px;
+}
+
+/* feature product */
+.feature-products {
+    display: flex;
+
+}
+
+.main {
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+.products {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.image-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 245, 245);
+}
+
+#image {
+    width: 50%;
+    height: 400px;
+    margin: 1% 4% 1% 4%;
+    overflow: hidden;
+}
+#image img:hover {
+    transform: scale(1.05) translateY(-12px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#image-text {
+    margin: 1% 1% 1% 1%;
+    padding: 100px;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+
+}
+
+
+.image-main button{
+    background-color: black;
+    color: white;
+    padding: 6px 6px;
+    border-radius: 10px;
+    margin-left: 41%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-main{
+   
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+  background-color: rgb(248, 241, 241);
+    
+}
+
+.phone-main button{
+    padding: 10px;
+    border-radius: .7rem;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: small;
+    font-family: sans-serif;
+    
+}
+.phone-head{
+    font-family: sans-serif;
+}
+.main-items{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 3px;
+}
+.item-image img{
+    width: 191px;
+    height: 191px;
+    padding-left: 29px;
+
+}
+.item-1{
+    background-color: rgb(249, 246, 246);
+}
+.item-1 h3 {
+    text-align: center;
+}
+.item-1 p{
+    text-align: center;
+    padding-left: 75px;
+}
+.item-1 button{
+    margin-left: 10px;
+}
+.but{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border-radius: .5rem;
+    padding: 7.275px 14.55px;
+}
+.learn{
+    border-radius: .5rem;
+     padding: 7.275px 14.55px;
+}
+.item-1:hover {
+    box-shadow: 0 4px 16px 0 rgba(112, 110, 110, 0.3);
+}
+.footer {
+      background-color: #000;
+      color: white;
+      padding: 30px 40px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer div {
+      margin-bottom: 10px;
+    }
+     .footer a {
+      color: #ccc;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    .footer a:hover {
+      color: #fff;
+    }
+    .carousel-item h3,p{
+        /* background-color: #f8f5f5; */
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: left; */
+        /* align-items: left; */
+    }
+.carousel-caption{
+    margin-bottom: 190px;
+}
+.carousel-caption button{
+     box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+}
+.re{
+    background-color: white;
+    color: black;
+    border-radius: .5rem;
+    padding: 6px;
+    width: 100px;
+
+
+    
+}
+.bu{
+    background-color: black;
+    color: white;
+     border-radius: .5rem;
+    padding: 7px;
+}
+.ag {
+color: white;
+}
+.se{
+    color: white;
+}
+.sp{
+    margin-left: 10px;
+}
+.Tablet-main{
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+  background-color: rgb(248, 241, 241);
+}
+.Tablet-main h2{
+     font: family 18px;system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: xx-large;
+
+}
+.pad{
+    text-align: left    ;
+}
+.na{
+    color: black;
+}
+.sna{
+    text-align: left;
+    color: white;
+}
+.snn{
+    border-radius: .5rem;
+     padding: 7.275px 14.55px;
+}
+.tab-button{
+     background-color: black;
+    color: white;
+    border-radius: .5rem;
+    padding: 7.275px 14.55px;
+}
+.tablet-items{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    padding: 10px;
+    margin-left: 10px;
+    gap: 60px;
+    
+    
+    
+}
+.tablet-1{
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    border: 10px solid white;
+    box-shadow: 0 4px 16px 0 rgba(95, 93, 93, 0.3);
+    
+}
+.tablet-image {
+    position: relative;
+    display: flex;
+    object-position: center;
+    width: auto;
+    height: 300px;
+} 
+.tv-main{
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+     background-color: rgb(248, 241, 241);
+}
+.tv-main button{
+    padding: 10px;
+    border-radius: .7rem;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-size: small;
+    font-family: sans-serif;
+    width: 110px;
+    height: 40px;
+    
+}
+.tv-head{
+    font-family: sans-serif;
+    font-size: xX-large;
+    font-weight: bold;
+}
+.tv-second{
+     text-align: center;
+    padding: 20px;
+    font-size: medium;
+}
+.tv-sechead{
+     font-family: sans-serif;
+    font-size: xX-large;
+    font-weight: bold;
+}
+.tv-second button{
+     padding: 10px;
+    border-radius: .7rem;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-size: small;
+    font-family: sans-serif;
+    width: 110px;
+    height: 40px;
+}
+.tv-third{
+     text-align: center;
+    padding: 20px;
+    font-size: medium;
+}
+.tv-thirdhead{
+     font-family: sans-serif;
+    font-size: xX-large;
+    font-weight: bold;
+}
+.tv-third button{
+     padding: 10px;
+    border-radius: .7rem;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-size: small;
+    font-family: sans-serif;
+    width: 110px;
+    height: 40px;
+}
+.tv-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 10px;
+    margin-left: 10px;
+    gap: 60px;
+    
+    
+}
+.tv-1{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    border: 10px solid white;
+    box-shadow: 0 4px 16px 0 rgba(95, 93, 93, 0.3);
+}
+.tv-image{
+    position: relative;
+    display: flex;
+    object-position: center;
+    width: auto;
+    height: 300px;
+}
+
+.icon{
+     margin-right:10px;
+     
+}
+.ema input{
+padding:6px; 
+border-radius:4px; 
+border:1px solid #ccc;
+}
+.iny{
+    position: relative; 
+    display: inline-block;
+     width: 220px;
+}
+.iny input{
+    padding-right: 35px;
+     width: 100%;
+     background-color: black;
+     color: white;
+}
+.iny button{
+    position: absolute; right: 0; top: 0;
+     height: 100%; 
+     border: none; 
+     background:transparent ; 
+     color: white;
+     font-size: 1.2em; 
+     cursor: pointer;
+}
+.ic{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.row{
+    padding: 20px;
+   
+}
+.col img{
+   overflow: hidden;
+   
+}
+.col{
+   border: solid 10px white;
+ 
+}
+.col img:hover{
+     transform: scale(1.05) translateY(-12px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    transition: transform 0.3s, box-shadow
+}
+.dis-head{
+     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: azure;
+    border: solid 10px snow;
+}
+.search-bar{
+    padding: 20px 70px;
+align-items: end;
+text-align: end;
+}
+.search-bar input{
+   border: solid snow;
+   background-color: rgb(189, 197, 197);
+   border-radius: .5rem;
+   box-shadow: 5px black;
+   text-align: center;
+}
+.see{
+    text-align: center;
+    margin-top: 20px;
+}
+.see a{
+    text-decoration: none;
+    color:gray;
+    
+}
+.see a:hover{
+    color: orange;
+}
+@media (max-width: 992px) {
+  #header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .left-content, #right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .products {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .main-items, .tablet-items, .tv-items {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .image-main {
+    flex-direction: column;
+  }
+
+  #image, #image-text {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+  }
+
+  .image-main button {
+    margin: 20px auto;
+  }
+
+  .search-bar {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .dis-head {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .iny {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    margin-bottom: 90px;
+  }
+
+  .carousel-caption h3, p {
+    font-size: 14px;
+  }
+
+  .image-main button,
+  .phone-main button,
+  .tab-button,
+  .tv-main button {
+    width: 80%;
+  }
+
+  .tv-head, .tv-sechead, .tv-thirdhead {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    flex-direction: column;
+  }
+
+  .logo img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .icon h3, .ema h3 {
+    font-size: 16px;
+  }
+
+  .ic {
+    justify-content: center;
+  }
+}
+
+/* header */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff6900;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+/*— Reset default spacing —*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*— Fix carousel captions flex rule —*/
+.carousel-item h3,
+.carousel-item p {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*— Responsive images —*/
+.tablet-image img,
+.tv-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/*— Font fix for heading —*/
+.Tablet-main h2 {
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*— Layout for tablet items —*/
+.tablet-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+/*— Media query for smaller screens —*/
+@media (max-width: 768px) {
+  .tablet-items {
+    grid-template-columns: 1fr;
+  }
+  .carousel-caption {
+    bottom: 40px !important;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .carousel-caption h1,
+  .carousel-caption h3,
+  .carousel-caption p {
+    font-size: 1rem;
+    line-height: 1.3;
+    padding: 0 10px;
+  }
+  .carousel-caption button {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    margin-top: 10px;
+  }
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+}
